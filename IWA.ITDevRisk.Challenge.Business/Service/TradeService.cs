@@ -1,7 +1,6 @@
 ﻿using IWA.ITDevRisk.Challenge.Business.Domain.Enum;
 using IWA.ITDevRisk.Challenge.Business.Domain.Interface.Domain;
 using IWA.ITDevRisk.Challenge.Business.Domain.Interface.Service;
-using System;
 using System.Collections.Generic;
 using System.Globalization;
 
