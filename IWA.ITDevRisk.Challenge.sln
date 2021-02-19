@@ -1,8 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWA.ITDevRisk.Challenge.UI", "IWA.ITDevRisk.Challenge.UI\IWA.ITDevRisk.Challenge.UI.csproj", "{ACA25868-1850-4929-A025-AE1B2E77F6F8}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IWA.ITDevRisk.Challenge.UI", "IWA.ITDevRisk.Challenge.UI\IWA.ITDevRisk.Challenge.UI.csproj", "{ACA25868-1850-4929-A025-AE1B2E77F6F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWA.ITDevRisk.Challenge.Business", "IWA.ITDevRisk.Challenge.Business\IWA.ITDevRisk.Challenge.Business.csproj", "{C374339B-0FB3-443A-A460-7DCABAF9E9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IWA.ITDevRisk.Challenge.Business", "IWA.ITDevRisk.Challenge.Business\IWA.ITDevRisk.Challenge.Business.csproj", "{C374339B-0FB3-443A-A460-7DCABAF9E9A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{8307DA28-C37B-4E7E-8066-08D9C8B3D538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4A0B9A3B-1E09-40DC-899E-7A3B3D57F1FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWA.ITDevRisk.Challenge.Business.Tests", "IWA.ITDevRisk.Challenge.Business.Tests\IWA.ITDevRisk.Challenge.Business.Tests.csproj", "{D151BF23-AF84-458F-9335-D9BD88DE299A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +27,20 @@ Global
 		{C374339B-0FB3-443A-A460-7DCABAF9E9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C374339B-0FB3-443A-A460-7DCABAF9E9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C374339B-0FB3-443A-A460-7DCABAF9E9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D151BF23-AF84-458F-9335-D9BD88DE299A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D151BF23-AF84-458F-9335-D9BD88DE299A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D151BF23-AF84-458F-9335-D9BD88DE299A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D151BF23-AF84-458F-9335-D9BD88DE299A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACA25868-1850-4929-A025-AE1B2E77F6F8} = {4A0B9A3B-1E09-40DC-899E-7A3B3D57F1FD}
+		{C374339B-0FB3-443A-A460-7DCABAF9E9A3} = {8307DA28-C37B-4E7E-8066-08D9C8B3D538}
+		{D151BF23-AF84-458F-9335-D9BD88DE299A} = {8307DA28-C37B-4E7E-8066-08D9C8B3D538}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAA6E3D1-4970-4695-B0D4-A0C0498E04CB}
 	EndGlobalSection
 EndGlobal
